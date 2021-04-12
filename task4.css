@@ -1,0 +1,270 @@
+body
+{margin:0%;
+overflow-x: hidden;
+width: 100%;}
+
+.top-page
+{position:relative;
+display: grid;
+}
+.video
+{width:100%;
+height:100%;
+z-index:0;
+}
+
+.menubar
+{position:absolute;
+display:grid;
+width:100%;
+grid-template-columns:75% 10% 6% ;
+grid-template-rows:auto;
+z-index:2;
+text-decoration: none;
+color:white;
+padding: 3% 0% 0% 5%;
+}
+.texting
+{text-decoration: none;
+   display: grid;
+    font-size: 1vw;
+color:white;
+opacity: 80%;
+font-family: Verdana, Geneva, Tahoma, sans-serif ;
+align-self: flex-start;
+
+}
+.menu
+{height:1vw;
+width:5vw;
+background-color:black;
+position:fixed;
+z-index:9;
+}
+.alterego
+{ position: fixed;
+
+text-align: center;
+width:30%;
+ height:30%;
+font-size: 8vw;
+font-family: Verdana, Geneva, Tahoma, sans-serif ;
+padding-left:35%;
+padding-top:13%;
+color:white;
+}
+
+.ego
+{font-size: 11vw;letter-spacing:3px;}
+
+.project
+{font-size:2vw;
+   letter-spacing:3px;
+   text-align: center;
+}
+
+.names
+{grid-template-columns: 50% 50%;}
+#milan::before
+{content: "";
+display: block;
+width: 3.25vw;
+height:0.2vw;
+background: white;
+ left: -100%;
+ top: 50%;
+position:absolute;
+z-index: 4;
+}
+#milan :hover {letter-spacing: 3px;}
+#milan
+{position:absolute;
+font-size:1.5vw;
+font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+color: white;
+margin-top:25%;
+margin-left:10%;
+z-index: 4;
+}
+
+#sidetext
+{text-decoration:none;
+color:white;
+}
+#moscow :hover {letter-spacing: 3px;} 
+#moscow
+{position:absolute;
+font-size:1.5vw;
+font-family: Verdana, Geneva, Tahoma, sans-serif ;
+color: white;
+margin-top:25%;
+margin-left:80%;
+z-index: 3;
+}
+#moscow::after
+{content:"";
+display:block;
+width: 3vw;
+height:0.2vw;
+background: white;
+ margin-left: 100%;
+ margin-top: -13%;
+position:absolute;
+padding-left: 1vw;
+z-index: 3;
+}
+
+.para
+{  margin: 20% 10% 0 10%;
+   position: absolute;
+   z-index: 6;
+background:white;
+;
+
+}
+.points
+{ position:relative;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size:1.5vw ;
+line-height: 2.5vw;
+animation: ani1 8s ease-in-out forwards;
+animation-iteration-count:infinite;
+}
+@keyframes ani1{
+   0%{opacity:0};
+   100%{opacity:1}
+}
+
+.menubar2
+{position:relative;
+display:grid;
+margin:32% 5% 0 10%;
+grid-template-columns:repeat(3,35%) ;
+overflow-x: hidden;
+}
+.secondcontent
+{font-size:1.25vw;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-decoration: none;
+color:black;
+letter-spacing: 2PX;}
+.secondcontent:hover
+{letter-spacing: 1px;}
+.imagecolumn1
+{width:100%;
+margin-top: 25% ;
+height:400px;
+transition:transform 1s;
+
+}
+.imagecolumn1:hover
+{transform: scale(0.75);
+}
+.imagecolumn2
+{width:100%;
+margin-top: 20% ;
+height:400px ;
+transition:transform 1s;
+}
+.imagecolumn2:hover
+{transform: scale(0.75);
+}
+.imagecolumn3
+{width:90%;
+margin-top: 25% ;
+height: 400px;
+transition:transform 1s;
+}
+.imagecolumn3:hover
+{transform: scale(0.75);
+}
+
+.last
+{ position: relative;
+   background-color:black ;}
+
+marquee
+{ margin:40% 0 0 0;
+    position:absolute;
+   width: 100%;
+background-color:black ;
+padding:8vw 0 0 5vw;
+height:60vw;
+font-size: 15vw;
+color: white;
+font-family:Georgia, 'Times New Roman', Times, serif;
+z-index: 6;
+letter-spacing: 1vw;
+}
+
+.suggestion
+{position: absolute;
+background-color: black;
+font-size: 1.6vw;
+ margin-top:80%;
+ margin-left:15%;
+ margin-right: 30%;
+ color: white;
+ z-index:6;
+ line-height:3vw;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sug
+{text-decoration: none;
+color:white;
+position: absolute;}
+.sug:hover{letter-spacing: 0.5vw;}
+.sug::after 
+{content:"";
+display:block;
+width: 3vw;
+height:0.2vw;
+background: white;
+padding-left: 3vw;
+ margin-left: 120%;
+ margin-top: -10%;
+position:absolute;
+
+z-index: 3;
+}
+
+.founders
+{margin-top:70%;
+background: white;
+position: absolute;
+}
+
+.textfinal
+{font-size:1vw;
+color:black;
+letter-spacing: 0.5vw;
+background: white;
+z-index: 8;
+text-decoration: none;}
+
+.imgfounders
+{padding-top:0%;
+width:100%;
+z-index: 7;
+left:40%
+}
+.marqueesecond
+{ margin:15% 0 0 0;
+ position:absolute;
+width: 100%;
+background-color:white ;
+padding:8vw 0 0 0;
+height:10vw;
+font-size: 15vw;
+color:black;
+font-family:Georgia, 'Times New Roman', Times, serif;
+z-index: 8;
+letter-spacing: 1vw;
+}
+
+
+
+
+
+
+
